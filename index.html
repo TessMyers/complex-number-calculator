@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <center>
+    <p><b>Add, subtract, multiply and divide complex numbers</b></p>
+      <p><em>Complex numbers must be formatted as:<em></p>
+      <div class="example">
+        <p><b>2+3i</b></p>
+        <p>or</p>
+        <p><b>50+19i</b></p>
+      </div>
+      <p><em>The first number should be real, followed by a '+', followed by an imaginary number<em></p>
+
+
+
+    <div class="calculator">
+      <input id="entry"></input>
+      <table class="operations">
+        <tr>
+          <td><div class="button ops" id="plus">+</div</td>
+          <td><div class="button ops" id="minus">-</div</td>
+        </tr>
+
+        <tr>
+          <td><div class="button ops" id="multiply">x</div</td>
+          <td><div class="button ops" id="divide">/</div></td>
+        </tr>
+
+      </table>
+        <td><div class="button" id="clear">Clear</div></td>
+
+    </div>
+    <p id='error'></p>
+  </center>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
